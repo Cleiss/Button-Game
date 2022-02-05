@@ -1,0 +1,118 @@
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #8d8191c5;
+    text-align: center;
+}
+
+#area1{
+    
+    font: normal 2em arial;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    line-height: 400px;
+    background-color: coral;
+    width: 400px;
+    height: 400px;
+    margin-left: 0.5em;
+
+}
+
+#area2{
+    
+    font: normal 2em arial;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    line-height: 400px;
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 400px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+         
+}
+
+#area3{
+    font: normal 2em arial;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    line-height: 400px;
+    background-color: rgb(253, 219, 23);
+    width: 400px;
+    height: 400px;
+    
+}
+
+#area4{
+    font: normal 2em arial;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    line-height: 400px;
+    background-color: rgb(64, 255, 47);
+    width: 400px;
+    height: 400px;
+    
+}
+
+#area5{
+    font: normal 2em arial;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    line-height: 400px;
+    background-color: rgb(140, 0, 255);
+    width: 400px;
+    height: 400px;
+    
+}
+
+#area1, #area2, #area3, #area4, #area5{
+    display: inline-block;
+
+}
+
+#area1:hover, #area2:hover, #area3:hover, #area4:hover, #area5:hover{
+    box-shadow: inset 10px 10px 10px rgb(0,0,0,0.2);
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    fieldset {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #area1, #area2, #area3, #area4, #area5 {
+    
+        font: normal 20px arial;
+        border-radius: 200px;
+        box-shadow: 2px 2px 2px;
+        text-align: center;
+        line-height: 85px;
+        width: 90px;
+        height: 90px;
+        margin-left: 0.5em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        
+    
+    }
+
+}
