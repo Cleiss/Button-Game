@@ -12,11 +12,11 @@ area1.onclick = function() {
     area2.innerHTML = '1'
     area2.style.background = 'coral'
     area3.innerHTML = '3'
-    area3.style.background = 'rgb(64, 255, 47)'
+    area3.style.background = 'rgb(253, 219, 23)'
     area4.innerHTML = '5'
     area4.style.background = 'rgb(140, 0, 255)'
     area5.innerHTML = '4'
-    area5.style.background = 'goldenrod'
+    area5.style.background = 'rgb(64, 255, 47'
 
 }
 
