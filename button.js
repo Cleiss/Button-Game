@@ -16,7 +16,7 @@ area1.onclick = function() {
     area4.innerHTML = '5'
     area4.style.background = 'rgb(140, 0, 255)'
     area5.innerHTML = '4'
-    area5.style.background = 'rgb(64, 255, 47'
+    area5.style.background = 'rgb(64, 255, 47)'
 
 }
 
